@@ -1,7 +1,7 @@
 #include <immintrin.h>
 #include <stdio.h>
 
-#include "format_detector.h"
+#include "pattern_detector.h"
 
 /*!
  * @brief Calcalute sum of absolute difference between nx8 window with AVX2

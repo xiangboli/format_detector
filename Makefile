@@ -17,13 +17,13 @@ ifeq ($(OS),Darwin)
   CC = gcc-4.9
 endif
 
-TARGET = format_detector
-TARGET_D = format_detector_d
+TARGET = detect_pattern
+TARGET_D = detect_pattern_d
 
 INCLUDE = -I include/ -I common/timer/include/
 
-SRC = src/format_detector.c \
-	  src/format_detector_utils.c \
+SRC = src/pattern_detector.c \
+	  src/pattern_detector_utils.c \
 	  src/loss_funcs_avx2.c \
 	  common/timer/src/timer.c 
 

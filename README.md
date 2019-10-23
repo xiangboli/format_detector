@@ -1,4 +1,4 @@
-# Video Format Detector
+# Video Scan Pattern Detector
 
 This tool can be used to check if a given video is progrossive, interlace or telecine. 
 
@@ -7,7 +7,7 @@ Installation:
 make clean
 make
 ```
-Usage: `format_detector [-i] input [-options]`
+Usage: `detect_pattern [-i] input [-options]`
 
 ```
 Options:

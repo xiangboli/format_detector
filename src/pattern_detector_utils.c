@@ -1,6 +1,6 @@
 /*!
- *  \file     format_detector.h
- *  \brief    Format pattern analysis application
+ *  \file     pattern_detector_utils.c
+ *  \brief    Scan pattern analysis application
  * 
  *  \version  1.0.00
  *  \date     Tue Feb. 5, 2019
@@ -46,7 +46,7 @@
 #include <assert.h>
 #include <errno.h>
 
-#include "format_detector.h"
+#include "pattern_detector.h"
 
 /**************************************
 * Instruction Set Support

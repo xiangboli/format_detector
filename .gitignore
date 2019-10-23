@@ -8,5 +8,5 @@ contents/
 
 .vscode/
 
-format_detector
-format_detector_d
+detect_pattern
+detect_pattern_d

@@ -1,6 +1,6 @@
 /*!
- *  \file     format_detector.h
- *  \brief    Format pattern analysis application
+ *  \file     pattern_detector.h
+ *  \brief    Scan pattern analysis application
  * 
  *  \version  1.0.00
  *  \date     Tue Feb. 5, 2019
@@ -9,8 +9,8 @@
  *
  */
 
-#ifndef _FORMAT_DETECTOR_H_
-#define _FORMAT_DETECTOR_H_  1
+#ifndef _PATTERN_DETECTOR_H_
+#define _PATTERN_DETECTOR_H_  1
 
 #ifdef __cplusplus
 extern "C" {
@@ -82,7 +82,7 @@ typedef struct {int num, denom;} fps_t;
  * Function prototypes:
  */
 
-/* implemented in format_detector_utils.c */
+/* implemented in pattern_detector_utils.c */
 fps_t float_to_fps (float x);
 float fps_to_float (fps_t fps);
 float clamp (float x, float x_min, float x_max);
@@ -108,4 +108,4 @@ int ssd_nx16_u8_avx2_intrin(unsigned char *p, unsigned char *q, int pitch, int n
 }
 #endif
 
-#endif /* _FORMAT_DETECTOR_H_ */
+#endif /* _PATTERN_DETECTOR_H_ */

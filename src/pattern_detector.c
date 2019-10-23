@@ -1,6 +1,6 @@
 /*!
- *  \file     format_detector.h
- *  \brief    Format pattern analysis application
+ *  \file     pattern_detector.c
+ *  \brief    Scan pattern analysis application
  * 
  *  \version  1.0.00
  *  \date     Tue Feb. 5, 2019
@@ -37,7 +37,7 @@
 #include <assert.h>
 
 #include "getopt.h"
-#include "format_detector.h"
+#include "pattern_detector.h"
 #include "timer.h"
 
 /*! Extract integer */
@@ -152,7 +152,7 @@ void error (int terminate, const char * format, ...)
 /*! Print program name & version */
 static void version ()
 {
-  printf ("Format Detector. Version %s (%s)\n", VERSION, __DATE__);
+  printf ("Scan Pattern Detector. Version %s (%s)\n", VERSION, __DATE__);
   printf ("Copyright (c) 2019 Xiangbo Li. All Rights Reserved.\n\n");
 }
 
@@ -350,7 +350,7 @@ void calculate_deltas(unsigned char *frame, res_t *res, float *delta, float *del
 }
 
 /*!
- *  \brief Format detector program.
+ *  \brief Scan pattern detector program.
  * 
  */
 
