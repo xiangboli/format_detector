@@ -6,4 +6,7 @@
 
 contents/
 
+.vscode/
+
 format_detector
+format_detector_d
