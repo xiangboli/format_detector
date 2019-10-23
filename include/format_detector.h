@@ -1,16 +1,12 @@
 /*!
  *  \file     format_detector.h
  *  \brief    Format pattern analysis application
- *
- *  Internal structures, definitions, and prototypes for Format Detector tool. 
  * 
  *  \version  1.0.00
  *  \date     Tue Feb. 5, 2019
  *
- *  \authors  Yuriy Reznik
- *            Xiangbo Li
+ *  \authors  Xiangbo Li
  *
- *  \copyright (c) 2019 Brightcove, Inc.
  */
 
 #ifndef _FORMAT_DETECTOR_H_
@@ -94,12 +90,6 @@ int make_temp_dir (char *final_dir, int bufsize, char *user_temp_dir);
 int min_index (double *x, int n);
 char *basename (char *name);
 char *remove_filename_extension (char* mystr);
-
-/* implemented in interlace_detector.c */
-void detect_interlace(unsigned char *frame, res_t *res, char *hist_log);
-
-/* implemented in telecine_detector.c */
-
 
 /* Sum of abosulate difference (SAD) of nx8 windown with AVX2 intrinsic functions */
 int sad_nx8_u8_avx2_intrin(unsigned char *p, unsigned char *q, int pitch, int n);  

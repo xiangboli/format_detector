@@ -1,16 +1,12 @@
 /*!
  *  \file     format_detector.h
  *  \brief    Format pattern analysis application
- *
- *  Internal structures, definitions, and prototypes for Format Detector tool. 
  * 
  *  \version  1.0.00
  *  \date     Tue Feb. 5, 2019
  *
- *  \authors  Yuriy Reznik
- *            Xiangbo Li
+ *  \authors  Xiangbo Li
  *
- *  \copyright (c) 2019 Brightcove, Inc.
  */
 
 /* OS-specific definitions: */

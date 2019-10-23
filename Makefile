@@ -26,8 +26,6 @@ SRC = src/format_detector.c \
 	  src/format_detector_utils.c \
 	  src/loss_funcs_avx2.c \
 	  common/timer/src/timer.c 
-	  #src/interlace_detector.c 
-	  #src/telecine_detector.c 
 
 INSTALLDIR=/usr/local/bin/
 

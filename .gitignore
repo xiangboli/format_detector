@@ -3,6 +3,7 @@
 *.mpg
 *.ts
 *.o
-*.xlsx
+
+./contents
 
 format_detector
