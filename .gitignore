@@ -2,3 +2,7 @@
 *.mp4
 *.mpg
 *.ts
+*.o
+*.xlsx
+
+format_detector
