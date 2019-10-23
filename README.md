@@ -2,9 +2,14 @@
 
 This tool can be used to check if a given video is progrossive, interlace or telecine. 
 
+Installation:
+```bash
+make clean
+make
 ```
-Usage: format_detector [-i] input [-options]
+Usage: `format_detector [-i] input [-options]`
 
+```
 Options:
 
   -i, --input       <string>             Name of uncompressed video file to be analyzed (.yuv or .y4m)
