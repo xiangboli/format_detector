@@ -4,6 +4,6 @@
 *.ts
 *.o
 
-./contents
+contents/
 
 format_detector
